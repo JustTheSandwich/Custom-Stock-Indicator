@@ -4,13 +4,13 @@ Overview
 	the TradingView platform. It combines statistical smoothing, volatility adjustments, and 
 	specified logic into a single stock indicator. 
 
-    The system integrates the following:
-      - Gaussian-Weighted Smoothing Channel
-      - Dynamic Volatility-Based Bands
-      - Moving Average Engine
-      - Mean-Reversion Trigger Detection
-      - Buy/Sell Signal Labels
-      - Alert Conditions
+      The system integrates the following:
+		- Gaussian-Weighted Smoothing Channel
+    	- Dynamic Volatility-Based Bands
+    	- Moving Average Engine
+    	- Mean-Reversion Trigger Detection
+    	- Buy/Sell Signal Labels
+    	- Alert Conditions
       
 	The combination for several components strengthens the assertions and reveals patterns. 
 	This indicator is designed primarily for day trading and trend filtering for potential investors. 
@@ -18,7 +18,7 @@ Overview
 Implantation
 
     Gaussian-Weighted Smoothing Channel: Applies higher weight to recent price data and 
-    	gradually reduces the weight for older bars
+	    gradually reduces the weight for older bars
     
     Dynamic Volatility-Based Bands: Derived from the Gaussian output, Mean Absolute Error, and 
     	a defined multiplier to reveal the breakout detection zones
